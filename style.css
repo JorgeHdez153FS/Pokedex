@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(24, 151, 134);
+    margin: 0;
+    font-family: rubik;
+    text-align: center;
+}
+
+.logo {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+    color: goldenrod;
+}
+
+.Search {
+    margin-bottom: 10px;
+    font-size: 54px;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin: auto;
+    width: 80%;
+    color: black;
+}
+
+.pokemon {
+    border-radius: 80px;
+    padding: 0px;
+    background-color: rgb(147, 121, 121);
+}
+
+@keyframes bounce {
+    20% {
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+    60% {
+        transform: translateY(-2px);
+    }
+    80% {
+        transform: translateY(-0px);
+    }
+}
